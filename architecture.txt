@@ -1,0 +1,66 @@
+USER
+Industry + Process Name
+        │
+        ▼
+┌──────────────────────────────┐
+│  1. Process Discovery Agent  │
+│                              │
+│  Researches:                 │
+│  • Current process           │
+│  • Activities / steps        │
+│  • Roles                     │
+│  • Systems                   │
+│  • Pain points / problems    │
+│  • Inputs / outputs          │
+└──────────────┬───────────────┘
+               │
+               ▼
+          PostgreSQL
+      Current-State Model
+               │
+               ▼
+┌──────────────────────────────┐
+│ 2. AI Opportunity Researcher │
+│                              │
+│ Uses CURRENT STATE as        │
+│ research context             │
+│                              │
+│ Generates targeted queries   │
+│ → Tavily / Brave             │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│ 3. Evidence Synthesis Agent  │
+│                              │
+│ Reads retrieved sources and  │
+│ determines:                  │
+│ • What problem is addressed? │
+│ • What technology is used?   │
+│ • How does it work?          │
+│ • Where can it apply here?  │
+│ • What are limitations?      │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│ 4. Transformation Designer   │
+│                              │
+│ Generates:                   │
+│ • AI intervention            │
+│ • Future activities          │
+│ • AI vs human responsibility │
+│ • Roles                      │
+│ • Systems                    │
+│ • Data / integration needs   │
+│ • Expected benefits          │
+│ • Risks / constraints        │
+│ • Evidence / provenance      │
+└──────────────┬───────────────┘
+               │
+               ▼
+          PostgreSQL
+      Future-State Model
+               │
+               ▼
+             UI

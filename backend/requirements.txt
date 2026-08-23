@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.111.0
+uvicorn==0.30.1
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+pgvector==0.3.1
+pydantic==2.7.4
+pydantic-settings==2.3.3
+langgraph==0.1.4
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+sentence-transformers==3.0.1
+httpx==0.27.0
+numpy==1.26.4
+python-dotenv==1.0.1
