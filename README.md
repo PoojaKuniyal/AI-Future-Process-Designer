@@ -27,7 +27,7 @@
 
 ---
 
-## 1. Executive Summary & Why We Built This
+## 1. Summary & Reason for building
 
 Modern organizations spend millions on management consulting firms to audit operational bottlenecks and map digital transformation roadmaps. Traditionally, this produces static PowerPoint slide decks full of abstract AI buzzwords that fail to bridge the gap between high-level promises and concrete operational reality.
 
@@ -229,44 +229,6 @@ The transformation pipeline is composed of 5 specialized agents located in [`bac
 
 ---
 
-### Environment Variables Setup
-
-Create a `.env` file in the root directory (or copy from the provided configuration):
-
-```ini
-# LLM Provider Configuration (groq / ollama / openai)
-LLM_PROVIDER=groq
-LLM_MODEL=openai/gpt-oss-20b
-GROQ_API_KEY=your_groq_api_key_here
-
-# Search Provider Configuration (tavily / brave / mock)
-SEARCH_PROVIDER=tavily
-TAVILY_API_KEY=your_tavily_api_key_here
-
-# Embeddings
-EMBEDDING_MODEL_NAME=all-MiniLM-L6-v2
-EMBEDDING_DEVICE=cpu
-
-# Database Configuration (Docker defaults)
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=aifutureprocess
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-
-# Application Ports
-APP_HOST=0.0.0.0
-APP_PORT=8000
-
-# LangSmith Tracing (Optional)
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-LANGCHAIN_API_KEY=your_langchain_api_key
-LANGCHAIN_PROJECT=aipossibilities
-```
-
----
-
 ### Running via Docker Compose (Recommended)
 
 1. **Build and start all services**:
@@ -358,5 +320,4 @@ docker compose exec db psql -U postgres -d aifutureprocess -c "\dt"
 
 ---
 
-## 📄 License & Attribution
-Developed as an open-source, modular framework for enterprise operations research and agentic workflow orchestration. All dependencies and LLM providers operate on free-tier and open-source licenses.
+**This project was developed as part of the Modus Enterprise AI Build Challenge.**
