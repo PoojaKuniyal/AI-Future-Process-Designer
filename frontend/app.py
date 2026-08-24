@@ -15,7 +15,8 @@ st.set_page_config(
     page_title="AI Future Process Designer",
     page_icon="⚡",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    theme={"base": "dark"} 
 )
 
 # Custom Styling CSS for Sleek Dark Theme/Cards
