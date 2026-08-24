@@ -7,7 +7,7 @@
 ---
 
 ## 📖 Table of Contents
-- [1. Executive Summary & Why We Built This](#1-executive-summary--why-we-built-this)
+- [1. Summary & Reason for building](#1-summary--reason-for-building)
 - [2. The Problem It Solves](#2-the-problem-it-solves)
 - [3. Core Philosophy & Key Differentiators](#3-core-philosophy--key-differentiators)
 - [4. System Architecture & Workflow](#4-system-architecture--workflow)
