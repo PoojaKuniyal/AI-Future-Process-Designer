@@ -2,6 +2,8 @@
 
 > **Autonomous Multi-Agent Architecture for Enterprise Process Discovery, Live Technology Research, Evidence Synthesis, and Future-State Re-engineering.**
 
+[![Live Application](https://img.shields.io/badge/Live%20Application-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://ai-future-process-designer-fve9gk3aqfpxjptgarak8q.streamlit.app/)
+&nbsp;&nbsp;
 [![Watch the Demo Video](https://img.shields.io/badge/Demo%20Video-Vimeo-blue?style=for-the-badge&logo=vimeo)](https://vimeo.com/1220614994?share=copy&fl=sv&fe=ci)
 &nbsp;&nbsp;
 ---
@@ -317,6 +319,14 @@ To verify database seeding and table initialization:
 ```bash
 docker compose exec db psql -U postgres -d aifutureprocess -c "\dt"
 ```
+
+---
+
+## 🌐 Cloud Architecture & Live Deployment
+* **Live Web Application**: [AI Future Process Designer · Streamlit](https://ai-future-process-designer-fve9gk3aqfpxjptgarak8q.streamlit.app/)
+* **Frontend**: Streamlit Community Cloud
+* **Backend API**: Render (FastAPI / Uvicorn)
+* **Cloud Database**: Neon (Serverless PostgreSQL with `pgvector` for semantic evidence storage)
 
 ---
 
